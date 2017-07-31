@@ -8,7 +8,7 @@ permalink: /outline/simple_values.html
 
 {% comment %}
 
-http://clojurebridge.github.io/curriculum/outline/simple_values.html
+http://clojurebridge-berlin.github.io/curriculum/outline/simple_values.html
 
 {% endcomment %}
 
@@ -193,7 +193,7 @@ Prefix: (+ 1 2 3 4 5 6 7 8 9)
 > inside a string. Do not try using single quotes to make a string.
 {: ng-show="block21" .description}
 
-> Reference: [String](http://clojurebridge.github.io/community-docs/docs/clojure/string/)
+> Reference: [String](http://clojurebridge-berlin.github.io/community-docs/docs/clojure/string/)
 {: ng-show="block21" .description}
 
 ```clojure
@@ -221,7 +221,7 @@ Prefix: (+ 1 2 3 4 5 6 7 8 9)
 > But, `nil` means no value at all and not a boolean
 {: ng-show="block31" .description}
 
-> Reference: [Truthiness](http://clojurebridge.github.io/community-docs/docs/clojure/truthiness/)
+> Reference: [Truthiness](http://clojurebridge-berlin.github.io/community-docs/docs/clojure/truthiness/)
 {: ng-show="block31" .description}
 
 
@@ -262,7 +262,7 @@ nil
 > If we had to type the same values over and over, it would be very
 > hard to write a program. What we need are names for values, so we
 > can refer to them in a way we can remember. This is called
-> assignment. 
+> assignment.
 {: ng-show="block161" .description}
 </section>
 
@@ -275,7 +275,7 @@ nil
 > When a name is assigned a value, that name is called a *symbol*.
 {: ng-show="block171" .description}
 
-> Reference: [Assignment def](http://clojurebridge.github.io/community-docs/docs/clojure/def/)
+> Reference: [Assignment def](http://clojurebridge-berlin.github.io/community-docs/docs/clojure/def/)
 {: ng-show="block171" .description}
 
 ```clojure

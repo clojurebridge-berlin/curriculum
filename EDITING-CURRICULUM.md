@@ -3,14 +3,14 @@
 ### Jekyll framework with kramdown
 
 ClojureBridge curriculum slides,
-<http://clojurebridge.github.io/curriculum/>, are rendered from
+<http://clojurebridge-berlin.github.io/curriculum/>, are rendered from
 markdown files using [Jekyll](http://jekyllrb.com/) framework.
 Those markdowns are parsed by [kramdown](http://kramdown.gettalong.org/).
 
 If your pull request on those markdown files are merged,
 the changes are immediately reflected on slides.
 You can see the changes at
-<http://clojurebridge.github.io/curriculum/>.
+<http://clojurebridge-berlin.github.io/curriculum/>.
 
 This way, the curriculum team eliminated duplicated works: updating
 markdown files, updating slides, and finally, copying slides to

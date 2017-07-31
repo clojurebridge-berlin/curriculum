@@ -8,7 +8,7 @@ permalink: /outline/data_structures.html
 
 {% comment %}
 
-http://clojurebridge.github.io/curriculum/outline/data_structures.html
+http://clojurebridge-berlin.github.io/curriculum/outline/data_structures.html
 
 {% endcomment %}
 

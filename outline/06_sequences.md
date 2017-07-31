@@ -8,7 +8,7 @@ permalink: /outline/sequences.html
 
 {% comment %}
 
-http://clojurebridge.github.io/curriculum/outline/sequences.html
+http://clojurebridge-berlin.github.io/curriculum/outline/sequences.html
 
 {% endcomment %}
 

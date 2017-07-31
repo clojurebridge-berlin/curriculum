@@ -8,7 +8,7 @@ permalink: /outline/intro.html
 
 {% comment %}
 
-http://clojurebridge.github.io/curriculum/outline/intro.html
+http://clojurebridge-berlin.github.io/curriculum/outline/intro.html
 
 {% endcomment %}
 
@@ -170,7 +170,7 @@ Introduction to Programming with Clojure
 > tastes.
 {: ng-show="block42" .description}
 
-> Reference: [Comment](http://clojurebridge.github.io/community-docs/docs/clojure/comment/)
+> Reference: [Comment](http://clojurebridge-berilin.github.io/community-docs/docs/clojure/comment/)
 {: ng-show="block42" .description}
 
 ```clojure
