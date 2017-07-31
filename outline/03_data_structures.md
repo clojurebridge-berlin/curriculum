@@ -13,30 +13,26 @@ http://clojurebridge-berlin.github.io/curriculum/outline/data_structures.html
 {% endcomment %}
 
 <section>
-Data Structures
+Bunches of values
 ----------------------------------------
 {: .slide-title .chapter}
 
-* Vectors
-* Maps
+* Values in order
+* Values you look up
 </section>
 
+
 <section>
-### Group of data - Collections
+### Sequences
 {: .slide_title .slide}
 
 #### <button class="link" ng-model="block11" ng-click="block11=!block11">Intro</button>
 
-> So far, we've dealt with discrete pieces of data: one number, one
-string, one value. When programming, it is more often the case that
-you want to work with groups of data.
+> So far, we've dealt with single pieces of data: one value at a time,
+> whether it's a number or a string of letters. Now we'll look at
+> groups of values. First, sequences
 {: ng-show="block11" .description}
 
-> Clojure has great facilities for working with these groups, or
-*collections*, of data. Not only does it provide four different types
-of collections, but it also provides a uniform way to use all of these
-collections together.
-{: ng-show="block11" .description}
 </section>
 
 <section ng-controller="NarrativeController">
@@ -45,91 +41,44 @@ collections together.
 
 #### Sequential collection <button class="link" ng-bind-html="details" ng-model="block21" ng-click="block21=!block21"></button>
 
-> A vector is a sequential collection of values. A vector may be
-> empty. A vector may contain values of different types.
-> Each value in a vector is numbered starting at 0, that number is
-> called its index. The index is used to refer to each value when
-> looking them up.
+> A vector is a sequential collection of values. Each value in a
+> vector is numbered starting at 0. That number is called its
+> index. The index is used to refer to each value when looking them
+> up.
 {: ng-show="block21" .description}
 
-#### Compartment-like structure <button class="link" ng-bind-html="details" ng-model="block22" ng-click="block22=!block22"></button>
-
-> To imagine a vector, imagine a box split into some number of
-> equally-sized compartments. Each of those compartments has a number.
-> You can put a piece of data inside each compartment and always know
-> where to find it, as it has a number.
+> Imagine a box split into equally-sized compartments. Each of those
+> compartments has a number.  You can put a piece of data inside each
+> compartment and always know where to find it, as it has a
+> number. That's what vectors are like.
 {: ng-show="block22" .description}
 
-> Note that the numbers start with 0. That may seem strange, but we
-> often count from zero when programming.
+> Note that the numbers start with 0. That's strange to us, but it's
+> how computers do things.
 {: ng-show="block22" .description}
+
 
 ![Vector](img/vector.png)
 
 </section>
 
+
 <section ng-controller="NarrativeController">
-#### Syntax <button class="link" ng-bind-html="details" ng-model="block31" ng-click="block31=!block31"></button>
+#### What do vectors look like? <button class="link" ng-bind-html="details" ng-model="block31" ng-click="block31=!block31"></button>
 
 >Vectors are written using square brackets with any number of pieces
->of data inside them, separated by spaces. Here are some examples of
->vectors:
+>of data inside them, separated by spaces. You can use commas if you
+>want--the computer ignores them. Here are some examples of vectors.
 {: ng-show="block31" .description}
 
 ```clojure
 [1 2 3 4 5]
-[56.9 60.2 61.8 63.1 54.3 66.4 66.5 68.1 70.2 69.2 63.1 57.1]
+["duck", "cow", "horse"]
 []
+["Grace Hopper" 1906 1992]
 ```
 </section>
 
-<section ng-controller="NarrativeController">
-#### Creation <button class="link" ng-bind-html="details" ng-model="block61" ng-click="block61=!block61"></button>
-
-> Instead of writing a vector with square brackets, you can also use the vector
-> function to create a vector. All arguments are collected and placed inside a new
-> vector.
->
-> `conj` takes a vector and some other values, and returns a new vector with the
-> extra value added. `conj` is short for conjoin, which means to join or combine.
-> This is what we're doing: we're joining the extra value to the vector. `conj`
-> can be used with any kind of collection. Right now the only kind of
-> collection we've encountered is a vector.
-{: ng-show="block61" .description}
-
-```clojure
-(vector 5 10 15)
-;=> [5 10 15]
-
-(conj [5 10] 15)
-;=> [5 10 15]
-```
-</section>
-
-<section ng-controller="NarrativeController">
-#### Extraction <button class="link" ng-bind-html="details" ng-model="block81" ng-click="block81=!block81"></button>
-
-> Now, take a look at these four functions. `count` gives us a
-count of the number of items in a vector. `nth` gives us the nth
-item in the vector. Note that we start counting at 0, so in the
-example, calling `nth` with the number 1 gives us what we'd call the
-second element when we aren't programming. `first` returns the first
-item in the collection. `rest` returns all except the first item.
-Try not to think about that and `nth` at the same time, as they can
-be confusing.
-{: ng-show="block81" .description}
-
-```clojure
-(count [5 10 15])
-;=> 3
-(nth [5 10 15] 1)
-;=> 10
-(first [5 10 15])
-;=> 5
-(rest [5 10 15])
-;=> (10 15)
-```
-</section>
 
 <section>
 #### EXERCISE: Make a vector
@@ -155,14 +104,16 @@ be confusing.
 >called dictionaries, hashes, or associative arrays.
 {: ng-show="block101" .description}
 
-![Map](img/map.png)
+![Map](img/map.png) <!-- FIXME this image uses `:first` which is doggone unacceptable; remake it -->
 </section>
 
-<section ng-controller="NarrativeController">
-#### Syntax <button class="link" ng-bind-html="details" ng-model="block102" ng-click="block102=!block102"></button>
 
-> We write maps by enclosing alternating keys and values in curly braces, like so.
-{: ng-show="block102" .description}
+<section ng-controller="NarrativeController">
+#### What do Clojure maps look like? <button class="link" ng-bind-html="details" ng-model="block102" ng-click="block102=!block102"></button>
+
+> We write maps by with curly braces, using key/value pairs. It goes
+> key, value, key, value, over and over inside the curly braces.
+{:ng-show="block102" .description}
 
 > Maps are useful because they can hold data in a way we normally
 > think about it. Take our made up example, Sally Brown. A map can
@@ -174,10 +125,11 @@ be confusing.
 
 ```clojure
 {:first "Sally" :last "Brown"}
-{:a 1 :b "two"}
+{:germany "Berlin" :france "Paris" :usa "Washington, D.C."}
 {}
 ```
 </section>
+
 
 <section ng-controller="NarrativeController">
 #### Creation <button class="link" ng-bind-html="details" ng-model="block104" ng-click="block104=!block104"></button>
@@ -196,6 +148,7 @@ be confusing.
 ;=> {:first "Sally", :last "Brown"}
 ```
 </section>
+
 
 <section ng-controller="NarrativeController">
 #### Extraction 1 <button class="link" ng-bind-html="details" ng-model="block105" ng-click="block105=!block105"></button>
