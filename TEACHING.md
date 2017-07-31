@@ -1,4 +1,4 @@
-ClojureBridge Teacher's Guide 
+ClojureBridge Teacher's Guide
 =============================
 
 There are many ways to teach the ClojureBridge material, and none of them are "right." The following is a guide to working though the curriculum with students based on the experience of some workshop organizers and teachers.
@@ -59,18 +59,6 @@ Presentation of the Material
 Most workshops have both teachers and TAs. Teachers present the material at the front of the room, and TAs and teachers help students as they work through the exercises on their own and with their tablemates. This is different from how RailsBridge usually works, where students generally work through the material in groups with the help of TAs.
 
 This is not the only way to present the material. It is just the way we have seen it done at most of the workshops so far. Please feel free to experiment.
-
-Light Table
------------
-Make sure to spend some time during the Installfest or at the beginning of Saturday showing a few key things to do in Light Table:
-
-- Open the command pane with `Ctrl-Space`
-- Start an Instarepl in the command pane by typing `Insta`
-- Set the font size, enable auto-closing parentheses, or add line numbers in `Settings: User behaviors`
-- Evaluate a file with `Cmd-Shift-Enter` or, on Windows, `Ctrl-Shift-Enter`
-- Evaluate a form with `Cmd-Enter` or, on Windows, `Ctrl-Enter`
-
-Students who want to do more can take a look at the [Light Table tutorial](http://docs.lighttable.com/tutorials/full/)
 
 Beginner and Advanced Tracks
 ----------------------------
