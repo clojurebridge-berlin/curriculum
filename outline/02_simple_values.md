@@ -16,10 +16,14 @@ http://clojurebridge-berlin.github.io/curriculum/outline/simple_values.html
 Simple Values
 ----------------------------------------
 {: .slide-title .chapter}
+</section>
+
+
+<section>
+### Values you can use
 
 * "I am a String"
-* `true`, `false` are Booleans; `nil` is also "falsey"
-* Keywords: `:first-name`, `:last-name`
+* `nil` to say "nothing"
 * All sorts of numbers: `25`, `3.14`, `7/10`
 </section>
 
