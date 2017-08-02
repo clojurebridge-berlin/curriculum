@@ -13,9 +13,11 @@ http://clojurebridge-berlin.github.io/curriculum/outline/intro.html
 {% endcomment %}
 
 <section>
-Welcome to Programming! 🙌
+Welcome to Programming!
 ----------------------------------------
 {: .slide-title .chapter}
+
+## 👋🏾 🎉 💖
 
 * What we'll learn
 * How we'll learn it
@@ -26,8 +28,8 @@ Welcome to Programming! 🙌
 ## What we'll learn
 {: .slide_title .slide}
 
-#### How to program
-#### ...in Clojure
+1. How to program... 💪🏾
+2. ...in Clojure! 💜
 
 > Today we're learning to code in a language called Clojure. Clojure is good for all sorts of programming projects, and we like it quite a bit.
 {: ng-show="block13" .description}
@@ -38,7 +40,7 @@ Welcome to Programming! 🙌
 ## What is programming?
 {: .slide_title .slide}
 
-* asking the computer questions
+* asking the computer 🤖 questions
 * exploring
 * building stuff
 </section>
@@ -59,6 +61,8 @@ Welcome to Programming! 🙌
 <section>
 ## How will we learn?
 {: .slide_title .slide}
+
+### ➡️ the REPL!
 
 #### <button class="link" ng-model="block51" ng-click="block51=!block51">Intro</button>
 
@@ -114,14 +118,21 @@ Welcome to Programming! 🙌
 
 
 <section ng-controller="NarrativeController">
-## Helping and being helped
+## How will we help each other?
 {: .slide_title .slide}
 
-* Programming is hard
-* Programming is easy
-* How your coach can help
-  * We don't know all the answers
-  * Focus on *how* to approach the problem
+#### Programming is hard <button class="link" ng-bind-html="details" ng-model="block70" ng-click="block70=!block70"></button>
+>It's not just you! Don't get discouraged if something breaks.
+{: ng-show="block70" .description}
+
+#### Programming is easy  <button class="link" ng-bind-html="details" ng-model="block71" ng-click="block71=!block71"></button>
+>You can do it! Coaches will do what we can to help you!
+{: ng-show="block71" .description}
+
+#### How your coach can help <button class="link" ng-bind-html="details" ng-model="block72" ng-click="block72=!block72"></button>
+> Coaches don't know all the answers. Don't get discouraged if your coach doesn't know how to do something.
+> Focus on *how* coaches approach the problem, not what the answer is or whether they know it immediately.
+{: ng-show="block72" .description}
 
 </section>
 
