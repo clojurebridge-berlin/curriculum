@@ -121,8 +121,9 @@ TODO FIXME
 
 * Programming is hard
 * Programming is easy
-* Coaches are learning too
-* TODO FIXME more on how to interact with coaches
+* How your coach can help
+  * We don't know all the answers
+  * Focus on *how* to approach the problem
 
 </section>
 
