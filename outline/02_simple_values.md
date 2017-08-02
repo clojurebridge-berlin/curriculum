@@ -18,8 +18,9 @@ Simple Values
 {: .slide-title .chapter}
 
 * "I am a String"
-* `true`, `false`
-* `:first-name`, `:last-name`
+* `true`, `false` are Booleans; `nil` is also "falsey"
+* Keywords: `:first-name`, `:last-name`
+* All sorts of numbers: `25`, `3.14`, `7/10`
 </section>
 
 
