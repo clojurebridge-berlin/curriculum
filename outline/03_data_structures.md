@@ -22,8 +22,8 @@ Bunches of values
 </section>
 
 
-<section>
-### Sequences
+<section ng-controller="NarrativeController">
+### Vectors
 {: .slide_title .slide}
 
 #### <button class="link" ng-model="block11" ng-click="block11=!block11">Intro</button>
@@ -32,12 +32,6 @@ Bunches of values
 > whether it's a number or a string of letters. Now we'll look at
 > groups of values. First, sequences
 {: ng-show="block11" .description}
-
-</section>
-
-<section ng-controller="NarrativeController">
-### Vectors
-{: .slide_title .slide}
 
 #### Sequential collection <button class="link" ng-bind-html="details" ng-model="block21" ng-click="block21=!block21"></button>
 
@@ -73,8 +67,6 @@ Bunches of values
 
 ```clojure
 [1 2 3 4 5]
-["duck", "cow", "horse"]
-[]
 ["Grace Hopper" 1906 1992]
 ```
 </section>
