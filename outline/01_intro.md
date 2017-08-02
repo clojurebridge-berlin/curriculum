@@ -13,7 +13,7 @@ http://clojurebridge-berlin.github.io/curriculum/outline/intro.html
 {% endcomment %}
 
 <section>
-Introduction to Programming with Clojure
+Welcome to Programming! 🙌
 ----------------------------------------
 {: .slide-title .chapter}
 
@@ -26,12 +26,8 @@ Introduction to Programming with Clojure
 ## What we'll learn
 {: .slide_title .slide}
 
-#### How to program <button class="link" ng-bind-html="details" ng-model="block12" ng-click="block12=!block12"></button>
-
-> TODO FIXME talk to computers, use code to make things, discover, explore
-{: ng-show="block12" .description}
-
-#### ...in Clojure <button class="link" ng-bind-html="details" ng-model="block13" ng-click="block13=!block13"></button>
+#### How to program
+#### ...in Clojure
 
 > Today we're learning to code in a language called Clojure. Clojure is good for all sorts of programming projects, and we like it quite a bit.
 {: ng-show="block13" .description}
@@ -42,7 +38,9 @@ Introduction to Programming with Clojure
 ## What is programming?
 {: .slide_title .slide}
 
-TODO FIXME
+* asking the computer questions
+* exploring
+* building stuff
 </section>
 
 
@@ -59,14 +57,14 @@ TODO FIXME
 
 
 <section>
-## How?
+## How will we learn?
 {: .slide_title .slide}
-
-### Making friends with the computer
 
 #### <button class="link" ng-model="block51" ng-click="block51=!block51">Intro</button>
 
-> TODO FIXME questions, answers
+> We want to ask the computer questions, so we need a way to talk to it.
+> Programmers use code to talk to the computer--tell it to do things, ask it questions.
+> To start, we'll have that conversation with the computer in something called a "REPL".
 {: ng-show="block51" .description}
 
 ![Nightcode's repl](img/repl.png)
