@@ -10,6 +10,10 @@ There are two pieces to the curriculum: the curriculum
 [slides and narrative](http://clojurebridge-berlin.github.io/curriculum), which is used as a study guide in individual groups, and the capstone app,
 [Drawing Lines](https://github.com/ClojureBridge-berlin/drawing/blob/master/curriculum/first-program.md), where we play in Quil.
 
+In Berlin our classroom management approach is to provide a link to
+the curriculum slides and let individual groups of coaches and
+students decide what material to work through, and at what pace.
+
 The slides and the narrative curriculum are the exactly the same
 files. The slide forms are what Berlin coaches walk through with
 students, while the narrative forms are easy to read detailed
