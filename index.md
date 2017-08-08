@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ClojureBridge Curriculum
+title: ClojureBridge Berlin Curriculum
 id: index
 permalink: /index.html
 ---
@@ -8,9 +8,11 @@ permalink: /index.html
 {::options parse_block_html="true" /}
 
 <section>
-ClojureBridge
+ClojureBridge *Berlin*
 ======================
 {: .slide-title .intro}
+
+## 👋🏾 🎉 💖
 </section>
 
  <section>

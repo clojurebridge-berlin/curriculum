@@ -17,6 +17,8 @@ Welcome to Programming!
 ----------------------------------------
 {: .slide-title .chapter}
 
+## 👋🏾 🎉 💖
+
 * Why Clojure?
 * What is Clojure good at?
 * What does Clojure look like?
