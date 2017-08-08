@@ -28,7 +28,7 @@ Simple Values
 * Numbers
   - Arithmetic
 
-* Assignment: `def`
+* Defining names: `def`
 </section>
 
 <section>
@@ -260,24 +260,23 @@ nil
 </section>
 
 <section ng-controller="NarrativeController">
-## Assignment: `def`
+## Defining names: `def`
 
 #### <button class="link" ng-model="block161" ng-click="block161=!block161">Intro</button>
 
 > If we had to type the same values over and over, it would be very
 > hard to write a program. What we need are names for values, so we
-> can refer to them in a way we can remember. This is called
-> assignment.
+> can refer to them in a way we can remember.
 {: ng-show="block161" .description}
 </section>
 
 <section ng-controller="NarrativeController">
-#### Assigning names to values: `def`
+#### Defining names for values: `def`
 
 #### <button class="link" ng-bind-html="details" ng-model="block171" ng-click="block171=!block171"></button>
 
-> We can assign a name to value using `def`.
-> When a name is assigned a value, that name is called a *symbol*.
+> We can define a name for a value using `def`.
+> When a name is defined, that name is called a *symbol*.
 {: ng-show="block171" .description}
 
 > Reference: [Assignment def](http://clojurebridge-berlin.github.io/community-docs/docs/clojure/def/)
@@ -292,9 +291,9 @@ nil
 </section>
 
 <section ng-controller="NarrativeController">
-#### Assign results to symbols <button class="link" ng-bind-html="details" ng-model="block181" ng-click="block181=!block181"></button>
+#### More complex names <button class="link" ng-bind-html="details" ng-model="block181" ng-click="block181=!block181"></button>
 
-> You can assign more than simple values to symbols. Try the following.
+> Names can be defined as more than simple values. Try the following.
 > Look at the last line, and see how we can use symbols by themselves to refer to a value.
 {: ng-show="block181" .description}
 
