@@ -146,7 +146,7 @@ Prefix: (+ (- (+ (+ 1 (/ (* 2 3) 4)) 5) (/ (* 6 7) 8)) 9)
 > Imagine both are unclear, but notice that in the prefix version,
 > you do not have to ever think about the precedence of operators.
 > Because each expression has the operator before all the operands and
-> the entire expression is wrapped in parentheses, all precendence is
+> the entire expression is wrapped in parentheses, all precedence is
 > explicit.
 {: ng-show="block131" .description}
 
