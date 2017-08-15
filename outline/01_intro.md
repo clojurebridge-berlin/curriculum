@@ -172,7 +172,7 @@ Welcome to Programming!
 > tastes.
 {: ng-show="block42" .description}
 
-> Reference: [Comment](http://clojurebridge-berilin.github.io/community-docs/docs/clojure/comment/)
+> Reference: [Comment](http://clojurebridge-berlin.github.io/community-docs/docs/clojure/comment/)
 {: ng-show="block42" .description}
 
 ```clojure
