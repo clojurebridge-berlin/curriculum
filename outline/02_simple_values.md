@@ -16,6 +16,14 @@ http://clojurebridge-berlin.github.io/curriculum/outline/simple_values.html
 Simple Values
 ----------------------------------------
 {: .slide-title .chapter}
+
+#### <button class="link" ng-model="block71" ng-click="block71=!block71">Intro</button>
+
+> In order to do anything in a programming language, you need to have
+> values to do stuff with. In Clojure, simple values are numbers,
+> strings, booleans, nil and keywords.
+{: ng-show="block71" .description}
+
 </section>
 
 
@@ -29,17 +37,6 @@ Simple Values
   - Arithmetic
 
 * Defining names: `def`
-</section>
-
-<section>
-## Simple values
-
-#### <button class="link" ng-model="block71" ng-click="block71=!block71">Intro</button>
-
-> In order to do anything in a programming language, you need to have
-> values to do stuff with. In Clojure, simple values are numbers,
-> strings, booleans, nil and keywords.
-{: ng-show="block71" .description}
 </section>
 
 <section ng-controller="NarrativeController">
