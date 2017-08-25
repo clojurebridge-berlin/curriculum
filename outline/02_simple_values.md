@@ -308,22 +308,6 @@ nil
 ```
 </section>
 
-
-<section ng-controller="NarrativeController">
-#### All sorts of values for names <button class="link" ng-bind-html="details" ng-model="block181" ng-click="block181=!block181"></button>
-
-> Names can be defined as more than simple values. Try the following.
-> Look at the last line, and see how we can use symbols by themselves to refer to a value.
-{: ng-show="block181" .description}
-
-```clojure
-(def fruit (+ mangoes oranges))
-(def average-fruit-amount (/ fruit 2))
-average-fruit-amount
-;=> 4
-```
-</section>
-
 <section>
 #### EXERCISE 1: Basic arithmetic
 
