@@ -291,7 +291,7 @@ nil
 <section ng-controller="NarrativeController">
 #### Defining names for values: `def`
 
-#### <button class="link" ng-bind-html="details" ng-model="block172" ng-click="block171=!block171"></button>
+#### <button class="link" ng-bind-html="details" ng-model="block172" ng-click="block172=!block172"></button>
 
 > Sometimes, we need a name that doesn't fit in a `let`. We prefer to
 > limit how many names we use, but sometimes we need a few names
