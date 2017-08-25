@@ -8,7 +8,7 @@ permalink: /outline/simple_values.html
 
 {% comment %}
 
-http://clojurebridge.github.io/curriculum/outline/simple_values.html
+http://clojurebridge-berlin.github.io/curriculum/outline/simple_values.html
 
 {% endcomment %}
 
@@ -17,6 +17,19 @@ Simple Values
 ----------------------------------------
 {: .slide-title .chapter}
 
+#### <button class="link" ng-model="block71" ng-click="block71=!block71">Intro</button>
+
+> In order to do anything in a programming language, you need to have
+> values to do stuff with. In Clojure, simple values are numbers,
+> strings, booleans, nil and keywords.
+{: ng-show="block71" .description}
+
+</section>
+
+
+<section>
+### Values you can use
+
 * Strings
 * Booleans and nil
 * Keywords
@@ -24,17 +37,6 @@ Simple Values
   - Arithmetic
 
 * Defining names: `def`
-</section>
-
-<section>
-## Simple values
-
-#### <button class="link" ng-model="block71" ng-click="block71=!block71">Intro</button>
-
-> In order to do anything in a programming language, you need to have
-> values to do stuff with. In Clojure, simple values are numbers,
-> strings, booleans, nil and keywords.
-{: ng-show="block71" .description}
 </section>
 
 <section ng-controller="NarrativeController">
@@ -141,7 +143,7 @@ Prefix: (+ (- (+ (+ 1 (/ (* 2 3) 4)) 5) (/ (* 6 7) 8)) 9)
 > Imagine both are unclear, but notice that in the prefix version,
 > you do not have to ever think about the precedence of operators.
 > Because each expression has the operator before all the operands and
-> the entire expression is wrapped in parentheses, all precendence is
+> the entire expression is wrapped in parentheses, all precedence is
 > explicit.
 {: ng-show="block131" .description}
 
@@ -193,7 +195,7 @@ Prefix: (+ 1 2 3 4 5 6 7 8 9)
 > inside a string. Do not try using single quotes to make a string.
 {: ng-show="block21" .description}
 
-> Reference: [String](http://clojurebridge.github.io/community-docs/docs/clojure/string/)
+> Reference: [String](http://clojurebridge-berlin.github.io/community-docs/docs/clojure/string/)
 {: ng-show="block21" .description}
 
 ```clojure
@@ -221,7 +223,7 @@ Prefix: (+ 1 2 3 4 5 6 7 8 9)
 > But, `nil` means no value at all and not a boolean
 {: ng-show="block31" .description}
 
-> Reference: [Truthiness](http://clojurebridge.github.io/community-docs/docs/clojure/truthiness/)
+> Reference: [Truthiness](http://clojurebridge-berlin.github.io/community-docs/docs/clojure/truthiness/)
 {: ng-show="block31" .description}
 
 
@@ -274,7 +276,7 @@ nil
 > When a name is defined, that name is called a *symbol*.
 {: ng-show="block171" .description}
 
-> Reference: [Assignment def](http://clojurebridge.github.io/community-docs/docs/clojure/def/)
+> Reference: [Assignment def](http://clojurebridge-berlin.github.io/community-docs/docs/clojure/def/)
 {: ng-show="block171" .description}
 
 ```clojure

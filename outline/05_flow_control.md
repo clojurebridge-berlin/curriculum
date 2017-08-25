@@ -8,7 +8,7 @@ permalink: /outline/flow_control.html
 
 {% comment %}
 
-http://clojurebridge.github.io/curriculum/outline/flow_control.html
+http://clojurebridge-berlin.github.io/curriculum/outline/flow_control.html
 
 {% endcomment %}
 
@@ -55,7 +55,7 @@ Flow Control
 > operator. It allows you to choose between two options depending upon a condition.
 {: ng-show="block21" .description}
 
-> Reference: [Conditional `if`](http://clojurebridge.github.io/community-docs/docs/clojure/if/)
+> Reference: [Conditional `if`](http://clojurebridge-berlin.github.io/community-docs/docs/clojure/if/)
 {: ng-show="block21" .description}
 
 ```clojure
@@ -79,7 +79,7 @@ Flow Control
 > Here are some examples:
 {: ng-show="block51" .description}
 
-> Reference: [Truthiness](http://clojurebridge.github.io/community-docs/docs/clojure/truthiness/)
+> Reference: [Truthiness](http://clojurebridge-berlin.github.io/community-docs/docs/clojure/truthiness/)
 {: ng-show="block51" .description}
 
 
@@ -160,7 +160,7 @@ Flow Control
 > To branch to multiple situations, `cond` operator works well.
 {: ng-show="block61" .description}
 
-> Reference: [Conditional `cond`](http://clojurebridge.github.io/community-docs/docs/clojure/cond/)
+> Reference: [Conditional `cond`](http://clojurebridge-berlin.github.io/community-docs/docs/clojure/cond/)
 {: ng-show="block62" .description}
 
 ```clojure

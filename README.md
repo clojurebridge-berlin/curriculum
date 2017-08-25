@@ -11,36 +11,23 @@ Set up guide
 
 Curriculum
 ------
-<http://clojurebridge.github.io/curriculum/>
+<http://clojurebridge-berlin.github.io/curriculum/>
 
 * [Introduction to Programming with Clojure](outline/intro.md)
 * [Simple Values](outline/simple_values.md)
 * [Data Structures](outline/data_structures.md)
 * [Functions](outline/functions.md)
-* [Capstone App: Drawing Lines](http://github.com/ClojureBridge/drawing/blob/master/curriculum/first-program.md)
+* [Capstone App: Drawing Lines](http://github.com/ClojureBridge-berlin/drawing/blob/master/curriculum/first-program.md)
 * [Flow Control and Logic](outline/flow_control.md)
 * [[bonus module] Sequences](outline/sequences.md)
-
-Choices of Capstone App - Part. 2
-----------------
-* [Turtles Walk](http://github.com/ClojureBridge/welcometoclojurebridge/blob/master/outline/TURTLE-SAMPLES.md) (more function study)
-* [Snowflakes](http://github.com/ClojureBridge/drawing/blob/master/curriculum/create-something.md) (animation)
-* [Twinkle Twinkle Little Star](http://github.com/ClojureBridge/tones/blob/master/curriculum/01-piano-chords.md) (making sounds)
-* [Global Growth](http://github.com/ClojureBridge/global-growth)  (web app with REST api)
-* [Caesar Cipher](http://clojurebridge.github.io/community-docs/docs/exercises/caesar-cipher/)
-  (mini exercise of Strings and Characters)
 
 Supporting Materials
 --------------------
 * [Student Cheatsheet](outline/cheatsheet.md) | [PDF](ClojurebridgeCheatsheet-v2.pdf)
-* [Old Curriculum](http://clojurebridge.github.io/curriculum/index.v0.html)
 
 Repositories
 ------------
-* [welcometoclojurebridge](https://github.com/ClojureBridge/welcometoclojurebridge)
-* [drawing](https://github.com/ClojureBridge/drawing)
-* [tones](https://github.com/ClojureBridge/tones)
-* [global-growth](https://github.com/ClojureBridge/global-growth)
+* [drawing](https://github.com/ClojureBridge-berlin/drawing)
 
 License
 -------

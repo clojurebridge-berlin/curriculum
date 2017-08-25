@@ -8,14 +8,16 @@ permalink: /outline/intro.html
 
 {% comment %}
 
-http://clojurebridge.github.io/curriculum/outline/intro.html
+http://clojurebridge-berlin.github.io/curriculum/outline/intro.html
 
 {% endcomment %}
 
 <section>
-Introduction to Programming with Clojure
+Welcome to Programming!
 ----------------------------------------
 {: .slide-title .chapter}
+
+## 👋🏾 🎉 💖
 
 * Why Clojure?
 * What is Clojure good at?
@@ -170,7 +172,7 @@ Introduction to Programming with Clojure
 > tastes.
 {: ng-show="block42" .description}
 
-> Reference: [Comment](http://clojurebridge.github.io/community-docs/docs/clojure/comment/)
+> Reference: [Comment](http://clojurebridge-berlin.github.io/community-docs/docs/clojure/comment/)
 {: ng-show="block42" .description}
 
 ```clojure

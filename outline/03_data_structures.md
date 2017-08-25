@@ -8,7 +8,7 @@ permalink: /outline/data_structures.html
 
 {% comment %}
 
-http://clojurebridge.github.io/curriculum/outline/data_structures.html
+http://clojurebridge-berlin.github.io/curriculum/outline/data_structures.html
 
 {% endcomment %}
 
@@ -78,7 +78,7 @@ collections together.
 
 ```clojure
 [1 2 3 4 5]
-[56.9 60.2 61.8 63.1 54.3 66.4 66.5 68.1 70.2 69.2 63.1 57.1]
+["Grace Hopper" 1906 1992]
 []
 ```
 </section>

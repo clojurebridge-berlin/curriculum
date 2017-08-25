@@ -8,7 +8,7 @@ permalink: /outline/functions.html
 
 {% comment %}
 
-http://clojurebridge.github.io/curriculum/outline/functions.html
+http://clojurebridge-berlin.github.io/curriculum/outline/functions.html
 
 {% endcomment %}
 
@@ -31,7 +31,7 @@ Functions
 * You already know some: `count`, `conj`, `first`
 * Maths operators are functions too: `+`, `-`, `*`, `/`
 * A piece of code that takes values and returns a value
-* Reference: [Basics of Function](http://clojurebridge.github.io/community-docs/docs/clojure/function-creation/)
+* Reference: [Basics of Function](http://clojurebridge-berlin.github.io/community-docs/docs/clojure/function-creation/)
 </section>
 
 <section ng-controller="NarrativeController">
@@ -41,7 +41,7 @@ Functions
 > * We give it a *name* so we may call it later i.e. `add`
 > * A Vector is used to specify the function's *arguments* i.e. `[x y]`
 > * A String can be provided for a description e.g. `"Adds together..."`
-> * The *body* is the form (thing in parentheses) that follows i.e. `(+ x y)` 
+> * The *body* is the form (thing in parentheses) that follows i.e. `(+ x y)`
 > * We call the function by creating a form with it's name and arguments i.e. `(add 1 2)`
 {: ng-show="block21" .description}
 
@@ -51,7 +51,7 @@ Functions
   [x y]                          ; arguments
   (+ x y))                       ; body
 
-(add 1 2)         ;=> 3 
+(add 1 2)         ;=> 3
 (add (add 1 2) 4) ;=> 7
 ```
 </section>
@@ -80,7 +80,7 @@ Functions
 > Let's look at an example to learn more about it.
 {: ng-show="block71" .description}
 
-> Reference: [Higher-order Function](http://clojurebridge.github.io/community-docs/docs/clojure/higher-order-function/)
+> Reference: [Higher-order Function](http://clojurebridge-berlin.github.io/community-docs/docs/clojure/higher-order-function/)
 {: ng-show="block71" .description}
 </section>
 
@@ -160,7 +160,7 @@ Functions
 > special form called `let`.
 {: ng-show="block301" .description}
 
-> Reference: [Assignment let](http://clojurebridge.github.io/community-docs/docs/clojure/let/)
+> Reference: [Assignment let](http://clojurebridge-berlin.github.io/community-docs/docs/clojure/let/)
 {: ng-show="block301" .description}
 ```clojure
 (defn average [values]
@@ -200,7 +200,7 @@ Functions
 > An anonymous function is created with `fn`, like so:
 {: ng-show="block201" .description}
 
-> Reference: [Anonymous Function](http://clojurebridge.github.io/community-docs/docs/clojure/anonymous-function/)
+> Reference: [Anonymous Function](http://clojurebridge-berlin.github.io/community-docs/docs/clojure/anonymous-function/)
 {: ng-show="block201" .description}
 
 
@@ -258,7 +258,7 @@ Functions
 #### Pure functions (side-effects)
 
 * It must also cause no observable side-effects
-* A side effect is any result 
+* A side effect is any result
 
 ```clojure
 (println "I'm impure")         ; writing to the console is a side-effect
