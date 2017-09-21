@@ -36,7 +36,7 @@ Simple Values
 * Numbers
   - Arithmetic
 
-* Defining names: `def`
+* Defining names
 </section>
 
 <section ng-controller="NarrativeController">
@@ -257,7 +257,7 @@ nil
 </section>
 
 <section ng-controller="NarrativeController">
-## Defining names: `def`
+## Defining names
 
 #### <button class="link" ng-model="block161" ng-click="block161=!block161">Intro</button>
 
@@ -267,38 +267,44 @@ nil
 {: ng-show="block161" .description}
 </section>
 
+
 <section ng-controller="NarrativeController">
-#### Defining names for values: `def`
+#### Defining names for values: `let`
 
 #### <button class="link" ng-bind-html="details" ng-model="block171" ng-click="block171=!block171"></button>
 
-> We can define a name for a value using `def`.
-> When a name is defined, that name is called a *symbol*.
+> Most of the time, we only need a name for a short time. To help
+> ourselves keep track of our names, we define short-term names with
+> `let`. The nice thing about `let` is that it keeps our names
+> tidy. The name we create is only defined within the `let`.
 {: ng-show="block171" .description}
 
-> Reference: [Assignment def](http://clojurebridge-berlin.github.io/community-docs/docs/clojure/def/)
-{: ng-show="block171" .description}
+```clojure
+(let [mangoes 3
+      oranges 5]
+  (+ mangoes oranges))
+;=> 8
+```
+</section>
+
+
+<section ng-controller="NarrativeController">
+#### Defining names for values: `def`
+
+#### <button class="link" ng-bind-html="details" ng-model="block172" ng-click="block172=!block172"></button>
+
+> Sometimes, we need a name that doesn't fit in a `let`. We prefer to
+> limit how many names we use, but sometimes we need a few names
+> across our entire program. For those cases, we can define a name for
+> a value using `def`.  When a name is defined, that name is called a
+> *symbol*.
+{: ng-show="block172" .description}
 
 ```clojure
 (def mangoes 3)
 (def oranges 5)
 (+ mangoes oranges)
 ;=> 8
-```
-</section>
-
-<section ng-controller="NarrativeController">
-#### More complex names <button class="link" ng-bind-html="details" ng-model="block181" ng-click="block181=!block181"></button>
-
-> Names can be defined as more than simple values. Try the following.
-> Look at the last line, and see how we can use symbols by themselves to refer to a value.
-{: ng-show="block181" .description}
-
-```clojure
-(def fruit (+ mangoes oranges))
-(def average-fruit-amount (/ fruit 2))
-average-fruit-amount
-;=> 4
 ```
 </section>
 
