@@ -312,7 +312,7 @@ be confusing.
 
 * Using the Clojure REPL
     - (Option) You may create a new file and write code in the file. To
-    evaluate, select the code you want and hit <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>x</kbd> or <kbd>cmd</kbd> <kbd>shift</kbd> + <kbd>x</kbd>, or press the "Eval" button
+    evaluate, set the cursor next to the code you want and hit <kbd>ctrl</kbd>/<kbd>cmd</kbd> + <kbd>shift</kbd> + <kbd>r</kbd>, or press the `Reload Selection` button
 * Make a map representing yourself
 * Make sure it contains your first name and last name
 * Then, add your hometown to the map using [assoc](http://grimoire.arrdem.com/1.6.0/clojure.core/assoc/) or [merge](http://grimoire.arrdem.com/1.6.0/clojure.core/merge/).
