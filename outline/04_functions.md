@@ -58,7 +58,7 @@ Functions
 
 
 <section ng-controller="NarrativeController">
-### EXERCISE: Find per-person share of bill among a group
+### EXERCISE: Re-use a function
 {: .slide_title .slide}
 
 * Create a new function, `add-one`, that takes a single argument

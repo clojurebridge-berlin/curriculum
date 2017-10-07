@@ -238,8 +238,8 @@ Welcome to Programming!
 
 > After this, you'll find a new REPL launch in that bottom pane. Here you
 > can type commands just like the other REPL -- but now you can also type
-> code in the main file, and run it with the `Eval` button
-> (<kbd>ctrl</kbd>/<kbd>cmd</kbd> + <kbd>shift</kbd> + <kbd>x</kbd>, making sure the cursor is next to the code).
+> code in the main file, and run it with the `Reload Selection` button
+> (<kbd>ctrl</kbd>/<kbd>cmd</kbd> + <kbd>shift</kbd> + <kbd>r</kbd>), making sure the cursor is next to the code.
 {: ng-show="block63" .description}
 </section>
 
@@ -264,13 +264,15 @@ Welcome to Programming!
 <section>
 #### EXERCISE 2: Evaluate file and line
 
-* In NightCode, at the top left, click on "New Project"
+* In NightCode, at the top left, click on "Start"
+* Click on "Graphics project"
 * Choose a location and a name (nb: don't call it `quil`)
-* Click on "Graphics" (the button with a big "Q" on it)
-* Click on "Run with REPL", a window will pop up with a grey circle
-* Find the line `(fill 192)` and change it to `(fill 250 20 20)`
-* Select the code from lines 7 to 10 with your cursor (make sure all of it is selected) and click on `Eval Selection` (<kbd>ctrl</kbd> + <kbd>E</kbd> or <kbd>cmd</kbd> + <kbd>E</kbd>)
-* See what happens
+* Click on "Run with REPL", a window with a grey circle opens
+* Open the file `src/`(project_name)`/core.clj`
+* Find the line `(fill 192)` and change it to
+  `(fill 250 20 20)`
+* Set your cursor at the beginning of line 7 and click on `Reload Selection` (<kbd>ctrl</kbd>/<kbd>cmd</kbd> + <kbd>shift</kbd> + <kbd>r</kbd>)
+* See what happens in the window that popped up earlier
 </section>
 
 <section>
